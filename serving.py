@@ -21,7 +21,7 @@ model.fc = torch.nn.Sequential(
 )
 
 # 체크포인트 경로
-checkpoint_path = 'C:/Users/allye/Desktop/swu/3-2/deep_learning/serving/best_model_last_4.pth'
+checkpoint_path = './best_model_last_4.pth'
 
 def load_model():
     # 체크포인트 로드
